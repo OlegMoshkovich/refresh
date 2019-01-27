@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import TextInput from './Components/TextInput';
-import SaveBar from './Components/SaveBar';
+import TextInput from '../../components/TextInput/TextInput';
+import SaveBar from '../../components/SaveBar/SaveBar';
 
 class FormPage extends Component {
   componentWillMount() {
-     this.props.setUpEditableForm();
+    this.props.setUpEditableForm();
   }
 
   render() {
