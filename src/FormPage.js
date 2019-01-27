@@ -5,7 +5,7 @@ import SaveBar from './Components/SaveBar';
 
 class FormPage extends Component {
   componentWillMount() {
-    this.props.setUpEditableForm();
+     this.props.setUpEditableForm();
   }
 
   render() {
